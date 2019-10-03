@@ -13,12 +13,14 @@ namespace legacy_chatfilter
 
             // First step, check if the file already exists or not - if it is, it is located at C:\Users\%username%\Documents\Guild Wars\ChatFilter.ini
             chatFilterLocation = @"C:\Users\" + @Environment.UserName + @"\Documents\Guild Wars\";
-            if (File.Exists(chatFilterLocation + "ChatFilter.ini")) {
+            if (File.Exists(chatFilterLocation + "ChatFilter.ini"))
+            {
                 // File exists. Check if the file on the server matches or not.
                 if (newVersionAvailable(chatFilterLocation) == true)
                     // New version is available, download it.
                     downloadFile(chatFilterLocation);
-            } else
+            }
+            else
             {
                 downloadFile(chatFilterLocation);
             }
@@ -27,7 +29,7 @@ namespace legacy_chatfilter
             launchGame();
         }
 
-   
+
         // Checks if our existing file matches or not by checking https://www.guildwarslegacy.com/chatfilter.php
         static bool newVersionAvailable(string localFile)
         {
@@ -48,7 +50,9 @@ namespace legacy_chatfilter
             {
                 // New update available.
                 return true;
-            } else {
+            }
+            else
+            {
                 // No update available.
                 return false;
             }

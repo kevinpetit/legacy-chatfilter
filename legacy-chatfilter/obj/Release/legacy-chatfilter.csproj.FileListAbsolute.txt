@@ -1,0 +1,7 @@
+D:\Stack\Projecten\C#\Legacy-Chatfilter\legacy-chatfilter\legacy-chatfilter\bin\Release\legacy-chatfilter.exe.config
+D:\Stack\Projecten\C#\Legacy-Chatfilter\legacy-chatfilter\legacy-chatfilter\bin\Release\legacy-chatfilter.exe
+D:\Stack\Projecten\C#\Legacy-Chatfilter\legacy-chatfilter\legacy-chatfilter\bin\Release\legacy-chatfilter.pdb
+D:\Stack\Projecten\C#\Legacy-Chatfilter\legacy-chatfilter\legacy-chatfilter\obj\Release\legacy-chatfilter.csprojAssemblyReference.cache
+D:\Stack\Projecten\C#\Legacy-Chatfilter\legacy-chatfilter\legacy-chatfilter\obj\Release\legacy-chatfilter.csproj.CoreCompileInputs.cache
+D:\Stack\Projecten\C#\Legacy-Chatfilter\legacy-chatfilter\legacy-chatfilter\obj\Release\legacy-chatfilter.exe
+D:\Stack\Projecten\C#\Legacy-Chatfilter\legacy-chatfilter\legacy-chatfilter\obj\Release\legacy-chatfilter.pdb
