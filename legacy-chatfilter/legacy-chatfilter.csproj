@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>legacy_chatfilter</RootNamespace>
+    <ApplicationIcon>FactionsMissionIcon.ico</ApplicationIcon>
+    <Authors>Guild Wars Legacy</Authors>
+    <Company>Guild Wars Legacy</Company>
+    <Description>An automatic chatfilter downloader</Description>
+    <Copyright>Guild Wars Legacy</Copyright>
+    <PackageProjectUrl>https://github.com/kevinpetit/legacy-chatfilter</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
