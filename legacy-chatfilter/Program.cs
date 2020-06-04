@@ -12,7 +12,7 @@ namespace legacy_chatfilter
             string chatFilterLocation;
 
             // First step, check if the file already exists or not - if it is, it is located at C:\Users\%username%\Documents\Guild Wars\ChatFilter.ini
-            chatFilterLocation = @"C:\Users\" + @Environment.UserName + @"\Documents\Guild Wars\";
+            chatFilterLocation = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\Guild Wars\";
             if (File.Exists(chatFilterLocation + "ChatFilter.ini"))
             {
                 // File exists. Check if the file on the server matches or not.
